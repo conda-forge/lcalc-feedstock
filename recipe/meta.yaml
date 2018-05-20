@@ -20,7 +20,7 @@ source:
     - patches/include_pari.patch
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
@@ -29,11 +29,11 @@ requirements:
     - libtool
     - pari
     - gmp >=5.0.1,<7
-    - mpfr 3.*
+    - mpfr 4.*
   run:
     - pari
     - gmp >=5.0.1,<7
-    - mpfr 3.*
+    - mpfr 4.*
 
 test:
   commands:
@@ -50,3 +50,4 @@ about:
 extra:
   recipe-maintainers:
     - isuruf
+    - saraedum
