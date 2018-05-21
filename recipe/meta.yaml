@@ -27,11 +27,11 @@ requirements:
   build:
     - toolchain
     - libtool
-    - pari
+    - pari 2.9.*
     - gmp >=5.0.1,<7
     - mpfr 4.*
   run:
-    - pari
+    - pari 2.9.*
     - gmp >=5.0.1,<7
     - mpfr 4.*
 
