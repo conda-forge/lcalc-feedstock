@@ -25,15 +25,17 @@ build:
 
 requirements:
   build:
-    - toolchain
     - libtool
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
     - pari 2.9.*
-    - gmp >=5.0.1,<7
-    - mpfr 4.*
+    - gmp
+    - mpfr
   run:
     - pari 2.9.*
-    - gmp >=5.0.1,<7
-    - mpfr 4.*
+    - gmp
+    - mpfr
 
 test:
   commands:
