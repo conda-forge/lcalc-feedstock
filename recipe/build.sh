@@ -1,10 +1,8 @@
 #!/bin/bash
 
-export CPPFLAGS="-I$PREFIX/include $CPPFLAGS"
-export LDFLAGS="-L$PREFIX/lib $LDFLAGS"
-export LD_LIBRARY_PATH="$PREFIX/lib:$LD_LIBRARY_PATH"
 export CFLAGS="-g -fPIC $CFLAGS $CPPFLAGS"
 export CXXFLAGS="-g -fPIC $CXXFLAGS $CPPFLAGS"
+export SAGE_LOCAL="$PREFIX"
 
 cd src
 make
