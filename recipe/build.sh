@@ -9,6 +9,10 @@ if [ "$(uname)" == "Linux" ]; then
     sed -i "s/long    rank(GEN x);//g" $PREFIX/include/pari/paridecl.h
 fi
 
+if [ "${c_compiler}" == "toolchain_c" ]; then
+    export CXXFLAGS="-std=c++11 $CXXFLAGS"
+fi
+
 cd src
 make
 make install INSTALL_DIR="$PREFIX"
