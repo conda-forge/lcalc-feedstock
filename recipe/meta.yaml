@@ -20,7 +20,6 @@ source:
     - patches/pari_include.patch
     - patches/pari-mem.patch
     - patches/time.h.patch
-    - patches/include_pari.patch
     - patches/using_namespace_std.patch
 
 build:
