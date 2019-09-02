@@ -18,5 +18,7 @@ make
 make install INSTALL_DIR="$PREFIX"
 
 # Delete unnecessary files
-rm -f ${PREFIX}/include/libLfunction/*.crap
-rm -f ${PREFIX}/include/libLfunction/*.bak
+rm -f ${PREFIX}/include/Lfunction/*.crap
+rm -f ${PREFIX}/include/Lfunction/*.bak
+
+ln -s ${PREFIX}/include/Lfunction ${PREFIX}/include/libLfunction
