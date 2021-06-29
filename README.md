@@ -3,7 +3,7 @@ About lcalc
 
 Home: http://oto.math.uwaterloo.ca/~mrubinst/L_function_public/L.html
 
-Package license: GPLv2+
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lcalc-feedstock/blob/master/LICENSE.txt)
 

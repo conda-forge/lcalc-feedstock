@@ -19,7 +19,7 @@ macos_machine:
 mpfr:
 - '4'
 pari:
-- '2.11'
+- '2.13'
 pin_run_as_build:
   gmp:
     max_pin: x
