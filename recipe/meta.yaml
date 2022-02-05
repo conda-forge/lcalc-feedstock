@@ -44,7 +44,7 @@ test:
 about:
   home: https://gitlab.com/sagemath/lcalc
   license: GPL-2.0-or-later
-  license_file: COPYING
+  license_file: doc/COPYING
   summary: C++ L-function class library and command line interface
 
 extra:
