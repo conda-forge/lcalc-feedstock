@@ -20,11 +20,13 @@ requirements:
     - make
     - autoconf
     - automake
+    - pkg-config
     - gengetopt
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
   host:
     - pari
+    - pkg-config
     - gmp
     - mpfr
   run:
