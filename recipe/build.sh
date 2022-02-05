@@ -14,6 +14,7 @@ if [ "${c_compiler}" == "toolchain_c" ]; then
 fi
 
 cd src
+./configure --with-pari
 make
 make install INSTALL_DIR="$PREFIX"
 
