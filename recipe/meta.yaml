@@ -26,7 +26,6 @@ requirements:
     - {{ compiler('cxx') }}
   host:
     - pari
-    - pkg-config
     - gmp
     - mpfr
   run:
@@ -36,8 +35,7 @@ requirements:
 
 test:
   commands:
-    - test -f ${PREFIX}/include/libLfunction/L.h
-    - test -f ${PREFIX}/include/Lfunction/L.h
+    - test -f ${PREFIX}/include/lcalc/L.h
     - test -f ${PREFIX}/lib/libLfunction.dylib     # [osx]
     - test -f ${PREFIX}/lib/libLfunction.so        # [linux]
 
