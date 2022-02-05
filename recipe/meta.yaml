@@ -18,6 +18,8 @@ requirements:
   build:
     - libtool
     - make
+    - autoconf
+    - automake
     - gengetopt
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}

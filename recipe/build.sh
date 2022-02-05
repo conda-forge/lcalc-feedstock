@@ -13,7 +13,7 @@ if [ "${c_compiler}" == "toolchain_c" ]; then
     export CXXFLAGS="-std=c++11 $CXXFLAGS"
 fi
 
-cd src
+autoreconf -ivf
 ./configure --with-pari
 make
 make install INSTALL_DIR="$PREFIX"
