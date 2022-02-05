@@ -14,7 +14,7 @@ if [ "${c_compiler}" == "toolchain_c" ]; then
 fi
 
 autoreconf -ivf
-./configure --with-pari
+./configure --with-pari --prefix=${PREFIX}
 make
 make install INSTALL_DIR="$PREFIX"
 
