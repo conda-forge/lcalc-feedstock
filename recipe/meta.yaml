@@ -11,7 +11,7 @@ source:
   sha256: 5a37bfbab8e7c95a15f9a1f877bebbdf86f6b588df809995585aa41248997635
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   run_exports:
     # The last patch releases did not contain breaking ABI changes, so x.x
