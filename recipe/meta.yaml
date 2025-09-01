@@ -1,4 +1,4 @@
-{% set version = "2.1.0" %}
+{% set version = "2.1.1" %}
 {% set name = "lcalc" %}
 
 package:
@@ -8,10 +8,10 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://gitlab.com/sagemath/{{ name }}/-/archive/{{ version }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5a37bfbab8e7c95a15f9a1f877bebbdf86f6b588df809995585aa41248997635
+  sha256: c92aa5b40cf74560d2fd8ee6f455b6d301649fda57d718c743e8741ed1f39c4e
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
   run_exports:
     # The last patch releases did not contain breaking ABI changes, so x.x
