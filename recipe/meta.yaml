@@ -1,4 +1,4 @@
-{% set version = "2.1.1" %}
+{% set version = "2.2.1" %}
 {% set name = "lcalc" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://gitlab.com/sagemath/{{ name }}/-/archive/{{ version }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c92aa5b40cf74560d2fd8ee6f455b6d301649fda57d718c743e8741ed1f39c4e
+  sha256: ed6b7c33da64093bf82b6b3e481e2520e68f1e1d571d65a7aead2b4a6b43dba7
 
 build:
   number: 0
