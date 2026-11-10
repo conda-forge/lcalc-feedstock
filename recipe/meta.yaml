@@ -24,7 +24,7 @@ requirements:
     - make
     - autoconf
     - automake
-    - pkg-config
+    - pkgconf
     - gengetopt
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
