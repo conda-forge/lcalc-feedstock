@@ -23,7 +23,7 @@ macos_machine:
 mpfr:
 - '4'
 pari:
-- 2.17.* *_pthread
+- '2.19'
 target_platform:
 - osx-64
 zip_keys:
